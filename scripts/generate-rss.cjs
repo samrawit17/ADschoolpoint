@@ -19,7 +19,7 @@ try {
   // Safe evaluation since it's our own code
   const blogPosts = eval(arrayMatch[1]);
   
-  const siteUrl = 'https://afrodigital.co'; // Update with your actual domain
+  const siteUrl = 'https://schoolpoint.com'; // Update with your actual domain
   
   const rssItems = blogPosts.map(post => {
     // Basic date parsing (e.g., "March 5, 2026")
@@ -42,9 +42,9 @@ try {
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AfroDigital Blog</title>
+    <title>SchoolPoint Blog</title>
     <link>${siteUrl}</link>
-    <description>Empowering Your Digital Presence through expert insights, web development tutorials, and tech news in Ethiopia.</description>
+    <description>Empowering digital education through expert insights, product updates, and practical guides for schools and educators.</description>
     <language>en-us</language>
     <lastBuildDate>${pubDateRSS}</lastBuildDate>
     <atom:link href="${siteUrl}/rss.xml" rel="self" type="application/rss+xml" />

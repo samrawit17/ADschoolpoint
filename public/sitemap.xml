@@ -2,135 +2,135 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Core Pages -->
   <url>
-    <loc>https://afrodigital.dev/</loc>
+    <loc>https://schoolpoint.com/</loc>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/about</loc>
+    <loc>https://schoolpoint.com/about</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/services</loc>
+    <loc>https://schoolpoint.com/services</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/solutions</loc>
+    <loc>https://schoolpoint.com/solutions</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/contact</loc>
+    <loc>https://schoolpoint.com/contact</loc>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <!-- Sub-Services Pages -->
   <url>
-    <loc>https://afrodigital.dev/services/application-development</loc>
+    <loc>https://schoolpoint.com/services/application-development</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/services/website-development</loc>
+    <loc>https://schoolpoint.com/services/website-development</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/services/security-solutions</loc>
+    <loc>https://schoolpoint.com/services/security-solutions</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/services/ai-integration</loc>
+    <loc>https://schoolpoint.com/services/ai-integration</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/services/digital-marketing</loc>
+    <loc>https://schoolpoint.com/services/digital-marketing</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/services/automation-cloud-devops</loc>
+    <loc>https://schoolpoint.com/services/automation-cloud-devops</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <!-- Blog Hub & Posts -->
   <url>
-    <loc>https://afrodigital.dev/blog</loc>
+    <loc>https://schoolpoint.com/blog</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/blog/web-dev-roadmap-ethiopia-2026</loc>
+    <loc>https://schoolpoint.com/blog/web-dev-roadmap-ethiopia-2026</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/blog/payment-gateways</loc>
+    <loc>https://schoolpoint.com/blog/payment-gateways</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/blog/website-builders</loc>
+    <loc>https://schoolpoint.com/blog/website-builders</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/blog/pwa-guide</loc>
+    <loc>https://schoolpoint.com/blog/pwa-guide</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/blog/tilex-pharma-link</loc>
+    <loc>https://schoolpoint.com/blog/tilex-pharma-link</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <!-- Company Pages -->
   <url>
-    <loc>https://afrodigital.dev/portfolio</loc>
+    <loc>https://schoolpoint.com/portfolio</loc>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/announcements</loc>
+    <loc>https://schoolpoint.com/announcements</loc>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/careers</loc>
+    <loc>https://schoolpoint.com/careers</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/book</loc>
+    <loc>https://schoolpoint.com/book</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <!-- Legal Pages -->
   <url>
-    <loc>https://afrodigital.dev/terms</loc>
+    <loc>https://schoolpoint.com/terms</loc>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/privacy</loc>
+    <loc>https://schoolpoint.com/privacy</loc>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/cookie-policy</loc>
+    <loc>https://schoolpoint.com/cookie-policy</loc>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://afrodigital.dev/compliance</loc>
+    <loc>https://schoolpoint.com/compliance</loc>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>

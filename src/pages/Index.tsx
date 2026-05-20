@@ -17,7 +17,7 @@ const organizationSchema = {
   url: "https://schoolpoint.com",
   logo: "https://schoolpoint.com/PRAD.png",
   email: "hello@schoolpoint.com",
-  telephone: "+251912207180",
+  telephone: "+251966074050",
   sameAs: [
     "https://www.linkedin.com/company/schoolpoint",
     "https://x.com/SchoolPointet",

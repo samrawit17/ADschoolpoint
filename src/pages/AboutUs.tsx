@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { useEffect, useRef, useState } from "react";
 import { Target, Users, Zap, Award, ArrowRight, CheckCircle2, Building, Globe2 } from "lucide-react";
 import { Link } from "react-router-dom";
-import TeamSection from "@/components/TeamSection";
+// TeamSection intentionally removed from About page per request
 import Seo from "@/components/Seo";
 
 const values = [
@@ -82,23 +82,20 @@ const AboutUs = () => {
                 </div>
 
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-[1.1] text-foreground tracking-tight">
-                  Empowering Your <br />
+                  Transforming <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent/60">
-                    Digital Presence.
+                    School Operations.
                   </span>
                 </h1>
 
                 <p className="text-xl text-muted-foreground leading-relaxed font-light mb-10 max-w-lg">
-                  We are a collective of developers, designers, and strategists dedicated to transforming complex challenges into elegant digital solutions.
+                  We are a dedicated team of engineers, educators, and strategists working to simplify digital challenges and empower educational institutions.
                 </p>
 
                 <div className="flex flex-wrap gap-4">
                   <Link to="/contact" className="px-8 py-4 bg-foreground text-background font-semibold rounded-xl hover:bg-foreground/90 transition-all flex items-center gap-2">
-                    Start a Project
+                    Work With Us
                     <ArrowRight className="w-4 h-4" />
-                  </Link>
-                  <Link to="/portfolio" className="px-8 py-4 bg-transparent border border-border text-foreground font-semibold rounded-xl hover:bg-accent/5 hover:border-accent/30 transition-all">
-                    View Our Work
                   </Link>
                 </div>
               </div>
@@ -133,23 +130,27 @@ const AboutUs = () => {
         <section className="py-24 relative overflow-hidden bg-primary/5">
           <div className="container mx-auto px-6 relative z-10">
             <div className="grid lg:grid-cols-12 gap-16 items-center">
-              {/* Stats Block (Left) */}
+              {/* Product Stats (Left) */}
               <div className="lg:col-span-5 grid grid-cols-2 gap-4">
                 <div className="professional-card p-8 rounded-3xl border border-border/50 text-center flex flex-col justify-center gap-2 aspect-square">
-                  <div className="text-5xl font-black text-foreground">8+</div>
-                  <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Years Experience</div>
+                  <div className="text-5xl font-black text-foreground">7</div>
+                  <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">User Roles</div>
                 </div>
                 <div className="professional-card p-8 rounded-3xl border border-border/50 text-center flex flex-col justify-center gap-2 aspect-square bg-accent/5 mt-8">
-                  <div className="text-5xl font-black text-accent">120+</div>
-                  <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Projects Done</div>
+                  <div className="text-5xl font-black text-accent">48</div>
+                  <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Core Modules</div>
                 </div>
                 <div className="professional-card p-8 rounded-3xl border border-border/50 text-center flex flex-col justify-center gap-2 aspect-square -mt-8">
-                  <div className="text-5xl font-black text-foreground">100+</div>
-                  <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Happy Clients</div>
+                  <div className="text-5xl font-black text-foreground">95+</div>
+                  <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Data Models</div>
                 </div>
                 <div className="professional-card p-8 rounded-3xl border border-border/50 text-center flex flex-col justify-center gap-2 aspect-square">
-                  <div className="text-5xl font-black text-foreground">99%</div>
-                  <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Success Rate</div>
+                  <div className="text-5xl font-black text-foreground">100%</div>
+                  <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Offline Ready</div>
+                </div>
+                <div className="professional-card col-span-2 p-6 rounded-3xl border border-border/50 text-center flex items-center justify-center gap-4 mt-4">
+                  <div className="text-3xl font-bold">2</div>
+                  <div className="text-sm text-muted-foreground">Calendars (Gregorian & Ethiopian)</div>
                 </div>
               </div>
 
@@ -162,16 +163,19 @@ const AboutUs = () => {
 
                 <div className="space-y-6 text-lg text-muted-foreground leading-relaxed font-light">
                   <p>
-                    Founded in 2018, SchoolPoint emerged from a singular vision: to help businesses harness the raw power of modern technology. What started as a tight-knit team of passionate developers has rapidly evolved into a full-scale digital innovation agency.
+                    Founded to solve the everyday operational challenges of schools, SchoolPoint is purpose-built for education. We combine product-led thinking with resilient engineering so institutions can run academics, finance, HR and exams from one unified system.
                   </p>
                   <p>
-                    We believe technology should empower your growth, not complicate your operations. That's why our methodology breaks down complex software architecture into intuitive, secure, and user-friendly digital products.
+                    Our edge-first architecture ensures teachers, administrators, and parents keep working even when connectivity drops: attendance and grading queue locally and sync automatically with conflict resolution when the network returns.
+                  </p>
+                  <p>
+                    We partner with school leaders across Ethiopia and the region to deliver tenant-isolated deployments, capacity building, and long-term support — reducing administrative overhead and improving student outcomes.
                   </p>
                   <ul className="space-y-4 mt-8">
                     {[
                       "Uncompromising code quality.",
-                      "Transparent project management.",
-                      "Continuous post-launch support."
+                      "Role-based portals and granular permissions.",
+                      "Offline-first workflows and automatic sync."
                     ].map((item, i) => (
                       <li key={i} className="flex items-center gap-3 text-foreground font-medium">
                         <CheckCircle2 className="w-6 h-6 text-accent" />
@@ -230,8 +234,42 @@ const AboutUs = () => {
           </div>
         </section>
 
-        {/* Team Section */}
-        <TeamSection />
+        {/* Platform Section */}
+        <section className="py-20 bg-background border-t border-border/30">
+          <div className="container mx-auto px-6 max-w-6xl">
+            <h3 className="text-2xl font-bold mb-6">Platform</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="p-6 border rounded-2xl bg-card">
+                <h4 className="font-semibold mb-2">EDGE-FIRST</h4>
+                <p className="text-sm text-muted-foreground">Offline attendance & grading — teachers keep working without Wi‑Fi. Local queues sync to the server with conflict resolution.</p>
+              </div>
+              <div className="p-6 border rounded-2xl bg-card">
+                <h4 className="font-semibold mb-2">LOCALIZED</h4>
+                <p className="text-sm text-muted-foreground">Dual calendars: Gregorian and Ethiopian run side-by-side with 13‑month academic year support and MoE syllabus mapping.</p>
+              </div>
+              <div className="p-6 border rounded-2xl bg-card">
+                <h4 className="font-semibold mb-2">TENANT</h4>
+                <p className="text-sm text-muted-foreground">Multi-school isolation: records, file storage, enums and feature flags are scoped per tenant for strict data separation.</p>
+              </div>
+              <div className="p-6 border rounded-2xl bg-card">
+                <h4 className="font-semibold mb-2">AUTOMATION</h4>
+                <p className="text-sm text-muted-foreground">School Siren: period-driven bells via webhooks with manual overrides for drills and emergencies.</p>
+              </div>
+              <div className="p-6 border rounded-2xl bg-card">
+                <h4 className="font-semibold mb-2">EXAMS</h4>
+                <p className="text-sm text-muted-foreground">Smart seating: generate exam plans with cross-grade shuffling, capacity enforcement and eligibility filters.</p>
+              </div>
+              <div className="p-6 border rounded-2xl bg-card">
+                <h4 className="font-semibold mb-2">MODULE CATALOG</h4>
+                <p className="text-sm text-muted-foreground">A unified catalog of 48+ interconnected modules including Enrollment, Attendance, Grading, Finance, HR, Timetable and more.</p>
+              </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <Link to="/demo" className="px-6 py-3 bg-accent text-white rounded-lg font-semibold">Play product demo</Link>
+            </div>
+          </div>
+        </section>
 
         {/* CTA Section */}
         <section className="py-24 bg-foreground text-background">

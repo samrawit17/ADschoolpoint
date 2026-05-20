@@ -15,7 +15,7 @@ const localBusinessSchema = {
   name: "SchoolPoint",
   image: "https://schoolpoint.com/PRAD.png",
   url: "https://schoolpoint.com/contact",
-  telephone: "+251912207180",
+  telephone: ["+251966074050", "+251983355598"],
   email: "hello@schoolpoint.com",
   address: {
     "@type": "PostalAddress",

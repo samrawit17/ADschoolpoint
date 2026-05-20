@@ -19,7 +19,7 @@ const Footer = () => {
                  <svg viewBox="0 0 24 24" aria-hidden="true" className="w-4 h-4 fill-current"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 22.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.008 5.964H5.078z"></path></svg>
                </a>
                <a href="https://www.instagram.com/schoolpoint.et/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors"><Instagram className="w-4 h-4" /></a>
-               <a href="https://www.linkedin.com/company/afro-digitalet" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors"><Linkedin className="w-4 h-4" /></a>
+               <a href="https://www.linkedin.com/company/schoolpoint" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors"><Linkedin className="w-4 h-4" /></a>
                <a href="https://t.me/SchoolPoint" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors"><Send className="w-4 h-4" /></a>
             </div>
           </div>
@@ -37,9 +37,9 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-sm text-foreground">Profiles</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><a href="https://clutch.co/profile/afro-digital" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Clutch</a></li>
-              <li><a href="https://techbehemoths.com/company/afro-digital" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">TechBehemoths</a></li>
-              <li><a href="https://www.sortlist.com/agency/afro-digital" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Sortlist</a></li>
+              <li><a href="https://clutch.co/profile/schoolpoint" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Clutch</a></li>
+              <li><a href="https://techbehemoths.com/company/schoolpoint" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">TechBehemoths</a></li>
+              <li><a href="https://www.sortlist.com/agency/schoolpoint" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Sortlist</a></li>
             </ul>
           </div>
 
