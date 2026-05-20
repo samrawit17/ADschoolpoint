@@ -4,73 +4,39 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Calendar, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Seo from "@/components/Seo";
-import coverImage from "@/assets/The-abstraction-fallacy-google-deepmind.png";
 
 const blogPosts = [
   {
-    id: 101,
-    title: "Airplanes Don't Simulate Flight",
-    excerpt: "What is AI Consciousness? When we talk about \"consciousness,\" we aren't talking about how smart an AI is. We are talking about feeling.",
+    id: 1,
+    title: "How Digital Transformation is Reshaping Education",
+    excerpt: "Schools migrating to comprehensive management systems see a 40% reduction in administrative overhead. Here is why going digital is no longer optional.",
     date: "April 19, 2026",
-    category: "AI",
-    author: "BetreMariyam Yosef",
-    slug: "/blog/airplanes-dont-simulate-flight",
-    image: coverImage,
+    category: "EdTech",
+    author: "SchoolPoint Team",
+    slug: "#",
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
     featured: true
   },
   {
-    id: 1,
-    title: "How to Start Learning Web Development in Ethiopia: The 2026 Roadmap",
-    excerpt: "The tech scene in Addis Ababa is no longer just 'emerging'—it is exploding. Here is your step-by-step guide to becoming a professional web developer.",
-    date: "March 5, 2026",
-    category: "Web Development",
-    author: "BetreMariyam Yosef",
-    slug: "/blog/web-dev-roadmap-ethiopia-2026",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
-    featured: false
-  },
-  {
     id: 2,
-    title: "Chapa vs. Telebirr: The 2026 Integration Guide for Ethiopian Startups",
-    excerpt: "If you are building an e-commerce platform in Ethiopia today, your checkout flow is your most critical component. Here is a technical breakdown of how the big two compare.",
-    date: "January 14, 2026",
-    category: "Payment Integration",
-    author: "BetreMariyam Yosef",
-    slug: "/blog/payment-gateways",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtrAtWhtlDHCZbhkt8jeaNzsK3xEDsorxYtw&s",
+    title: "Parent-Teacher Engagement in the Digital Age",
+    excerpt: "Real-time communication portals bridge the gap between home and school, directly improving student outcomes and satisfaction.",
+    date: "March 5, 2026",
+    category: "Engagement",
+    author: "SchoolPoint Team",
+    slug: "#",
+    image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&h=600&fit=crop",
     featured: false
   },
   {
     id: 3,
-    title: "Wix vs. Webflow vs. Gebeya Jitume: Which is Best for Ethiopia?",
-    excerpt: "\"I need a website, but I don't want to code.\" This is the most common request in Addis Ababa's tech hubs today. Here is how the top platforms stack up in the 2026 Ethiopian market.",
-    date: "February 25, 2026",
-    category: "No-Code",
+    title: "Managing School Finances: From Chaos to Clarity",
+    excerpt: "Automated billing, transparent ledgers, and seamless payroll runs. How a unified system simplifies your school's financial health.",
+    date: "January 14, 2026",
+    category: "Management",
     author: "SchoolPoint Team",
-    slug: "/blog/website-builders",
-    image: "https://uploads-ssl.webflow.com/5d5ccddd9a3f387d210a369c/64db0276a6baab24d8aa9d3c_Webflow%20vs%20Wix%20comparison.webp",
-    featured: false
-  },
-  {
-    id: 4,
-    title: "Why Your Ethiopian Business Needs a PWA, Not Just an App",
-    excerpt: "We frequently meet with CEOs who say \"I want an App.\" In many cases, what they really need is a Progressive Web App (PWA). Here is why PWAs are dominating the East African market.",
-    date: "March 10, 2026",
-    category: "PWA",
-    author: "SchoolPoint Strategy",
-    slug: "/blog/pwa-guide",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80",
-    featured: false
-  },
-  {
-    id: 5,
-    title: "Case Study: Driving B2B Digital Transformation for Tilex Pharma Link",
-    excerpt: "How SchoolPoint optimized the pharmaceutical supply chain connection between global manufacturers and the Ethiopian market.",
-    date: "March 5, 2026",
-    category: "Case Study",
-    author: "SchoolPoint Team",
-    slug: "/blog/tilex-pharma-link",
-    image: "https://www.tilexpharmalink.com/wp-content/uploads/2024/09/how-tilexpharmalink-is-transforming-pharmaceutical-access-in-ethiopia.jpg",
+    slug: "#",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
     featured: false
   }
 ];

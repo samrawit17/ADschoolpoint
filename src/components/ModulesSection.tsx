@@ -14,7 +14,7 @@ const modulesList = [
 
 const ModulesSection = () => {
   return (
-    <section className="py-24 bg-muted/30 border-y border-border/30">
+    <section id="modules" className="py-24 bg-muted/30 border-y border-border/30">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-sm font-semibold tracking-widest text-accent uppercase mb-2">Core Modules</h2>

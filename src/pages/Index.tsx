@@ -1,7 +1,10 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import TrustSection from "@/components/TrustSection";
 import ProcessTimeline from "@/components/ProcessTimeline";
+import ModulesSection from "@/components/ModulesSection";
+import RolesSection from "@/components/RolesSection";
+import PricingSection from "@/components/PricingSection";
+import FaqSection from "@/components/FaqSection";
 import CtaSection from "@/components/CtaSection";
 import StatsSection from "@/components/StatsSection";
 import Footer from "@/components/Footer";
@@ -16,10 +19,7 @@ const organizationSchema = {
   email: "hello@schoolpoint.com",
   telephone: "+251912207180",
   sameAs: [
-    "https://clutch.co/profile/afro-digital",
-    "https://techbehemoths.com/company/afro-digital",
-    "https://www.sortlist.com/agency/afro-digital",
-    "https://www.linkedin.com/company/afro-digitalet",
+    "https://www.linkedin.com/company/schoolpoint",
     "https://x.com/SchoolPointet",
     "https://www.instagram.com/schoolpoint.et/",
     "https://t.me/SchoolPoint"
@@ -48,8 +48,11 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
-        <TrustSection />
+        <ModulesSection />
+        <RolesSection />
         <ProcessTimeline />
+        <PricingSection />
+        <FaqSection />
         <StatsSection />
         <CtaSection />
       </main>

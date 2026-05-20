@@ -1,6 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ChevronRight, GraduationCap, Building, LayoutDashboard, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
+import {
+  Dialog,
+  DialogContent,
+  DialogTrigger,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog";
 
 const HeroSection = () => {
   return (
@@ -29,15 +36,39 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
-            <Link to="/contact" className="w-full sm:w-auto">
-              <Button size="lg" className="w-full sm:w-auto font-medium px-8 h-12 rounded-xl bg-foreground text-background hover:bg-foreground/90 transition-all hover:scale-[1.02] shadow-sm">
-                Get a Demo
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </Link>
-            <Link to="/about" className="w-full sm:w-auto">
-              <Button size="lg" variant="outline" className="w-full sm:w-auto font-medium px-8 h-12 rounded-xl border-border/80 bg-background hover:bg-muted shadow-sm transition-all hover:scale-[1.02]">
-                Learn more
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button size="lg" className="w-full sm:w-auto font-medium px-8 h-12 rounded-xl bg-foreground text-background hover:bg-foreground/90 transition-all hover:scale-[1.02] shadow-sm">
+                  View Demo
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[800px] border-none bg-transparent shadow-none p-0 overflow-hidden">
+                <DialogTitle className="sr-only">SchoolPoint Demo Video</DialogTitle>
+                <DialogDescription className="sr-only">A video demonstrating the features of SchoolPoint</DialogDescription>
+                <div className="aspect-video w-full rounded-2xl overflow-hidden bg-black/80 flex items-center justify-center">
+                  <iframe 
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/dQw4w9W" 
+                    title="SchoolPoint Demo Video" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowFullScreen
+                  />
+                </div>
+              </DialogContent>
+            </Dialog>
+            <Button size="lg" variant="outline" className="w-full sm:w-auto font-medium px-8 h-12 rounded-xl border-border/80 bg-background hover:bg-muted shadow-sm transition-all hover:scale-[1.02]" onClick={() => {
+              const modulesElement = document.getElementById('modules');
+              if (modulesElement) {
+                modulesElement.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}>
+              Explore Modules
+            </Button>
+            <Link to="#" className="w-full sm:w-auto">
+              <Button size="lg" variant="ghost" className="w-full sm:w-auto font-medium px-8 h-12 rounded-xl hover:bg-accent/10 hover:text-accent shadow-sm transition-all hover:scale-[1.02]">
+                View Documentation
               </Button>
             </Link>
           </div>
