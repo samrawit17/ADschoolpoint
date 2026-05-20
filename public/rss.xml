@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AfroDigital Blog</title>
+    <link>https://afrodigital.co</link>
+    <description>Empowering Your Digital Presence through expert insights, web development tutorials, and tech news in Ethiopia.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Mar 2026 07:42:35 GMT</lastBuildDate>
+    <atom:link href="https://afrodigital.co/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title><![CDATA[How to Start Learning Web Development in Ethiopia: The 2026 Roadmap]]></title>
+      <link>https://afrodigital.co/blog/web-dev-roadmap-ethiopia-2026</link>
+      <guid isPermaLink="true">https://afrodigital.co/blog/web-dev-roadmap-ethiopia-2026</guid>
+      <description><![CDATA[The tech scene in Addis Ababa is no longer just 'emerging'—it is exploding. Here is your step-by-step guide to becoming a professional web developer.]]></description>
+      <pubDate>Wed, 04 Mar 2026 21:00:00 GMT</pubDate>
+      <category>Web Development</category>
+      <author>BetreMariyam Yosef</author>
+    </item>
+    <item>
+      <title><![CDATA[Chapa vs. Telebirr: The 2026 Integration Guide for Ethiopian Startups]]></title>
+      <link>https://afrodigital.co/blog/payment-gateways</link>
+      <guid isPermaLink="true">https://afrodigital.co/blog/payment-gateways</guid>
+      <description><![CDATA[If you are building an e-commerce platform in Ethiopia today, your checkout flow is your most critical component. Here is a technical breakdown of how the big two compare.]]></description>
+      <pubDate>Tue, 13 Jan 2026 21:00:00 GMT</pubDate>
+      <category>Payment Integration</category>
+      <author>BetreMariyam Yosef</author>
+    </item>
+    <item>
+      <title><![CDATA[Wix vs. Webflow vs. Gebeya Jitume: Which is Best for Ethiopia?]]></title>
+      <link>https://afrodigital.co/blog/website-builders</link>
+      <guid isPermaLink="true">https://afrodigital.co/blog/website-builders</guid>
+      <description><![CDATA["I need a website, but I don't want to code." This is the most common request in Addis Ababa's tech hubs today. Here is how the top platforms stack up in the 2026 Ethiopian market.]]></description>
+      <pubDate>Tue, 24 Feb 2026 21:00:00 GMT</pubDate>
+      <category>No-Code</category>
+      <author>AfroDigital Team</author>
+    </item>
+    <item>
+      <title><![CDATA[Why Your Ethiopian Business Needs a PWA, Not Just an App]]></title>
+      <link>https://afrodigital.co/blog/pwa-guide</link>
+      <guid isPermaLink="true">https://afrodigital.co/blog/pwa-guide</guid>
+      <description><![CDATA[We frequently meet with CEOs who say "I want an App." In many cases, what they really need is a Progressive Web App (PWA). Here is why PWAs are dominating the East African market.]]></description>
+      <pubDate>Mon, 09 Mar 2026 21:00:00 GMT</pubDate>
+      <category>PWA</category>
+      <author>AfroDigital Strategy</author>
+    </item>
+    <item>
+      <title><![CDATA[Case Study: Driving B2B Digital Transformation for Tilex Pharma Link]]></title>
+      <link>https://afrodigital.co/blog/tilex-pharma-link</link>
+      <guid isPermaLink="true">https://afrodigital.co/blog/tilex-pharma-link</guid>
+      <description><![CDATA[How AfroDigital optimized the pharmaceutical supply chain connection between global manufacturers and the Ethiopian market.]]></description>
+      <pubDate>Wed, 04 Mar 2026 21:00:00 GMT</pubDate>
+      <category>Case Study</category>
+      <author>AfroDigital Team</author>
+    </item>
+  </channel>
+</rss>
